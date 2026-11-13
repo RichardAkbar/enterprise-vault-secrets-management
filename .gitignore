@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials and secrets
+*.secret
+*.secrets
+*.key
+*.pem
+*.crt
+.vault-token
+vault-token
+*.unseal
+*.backup
+
+# Vault credentials
+vault.creds
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
